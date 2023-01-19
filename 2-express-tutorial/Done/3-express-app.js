@@ -4,7 +4,7 @@ const app = express();
 
 // setup static and middleware
 // static assets : files that the server does not have to change => it's static for the server
-app.use(express.static('./navbar-app'));
+app.use(express.static('./navbar-app')); // static is a built in middleware
 
 
 // app.get('/', (req,res) => {
